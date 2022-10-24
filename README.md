@@ -1,1 +1,1 @@
-## My !00 days of Machine Learning
+## My 100 days of Machine Learning
