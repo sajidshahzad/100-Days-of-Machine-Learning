@@ -47,7 +47,7 @@ if __name__ == "__main__":
     driver = get_driver()
     videos = get_videos(driver)
     print("Parsing Top trending videos")
-    trending_videos = [parse_videos(video) for video in videos [:10]]
+    trending_videos = [parse_videos(video) for video in videos]
     
     trend_videos_df = pd.DataFrame(trending_videos)
     trend_videos_df.to_csv('Web Scrapping/trending_videos.csv', index=False)
